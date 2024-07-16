@@ -37,7 +37,6 @@ Melodica is a revolutionary SocialFi platform built on the Aptos blockchain that
     - **React**: Frontend framework for building user interfaces.
     - **Material UI**: Component library for UI elements and styling.
     - **Aptos Wallet Adapter**: Enables easy integration with Aptos wallets.
-    - **Web3Modal**: (Optional) For multi-wallet support.
     - **hls.js**: For streaming video content.
     - **notistack**: For displaying notifications and alerts.
 
