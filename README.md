@@ -30,8 +30,8 @@ Melodica is a revolutionary SocialFi platform built on the Aptos blockchain that
 
 ## Target Audience:
 
-    - **Musicians**: Independent artists, bands, producers, and music creators seeking a more equitable and transparent way to share and monetize their work.
-    - **Music Fans**: Enthusiasts who want to support their favorite artists directly, own a piece of their music, and be part of a vibrant music community.
+-  **Musicians**: Independent artists, bands, producers, and music creators seeking a more equitable and transparent way to share and monetize their work.
+-  **Music Fans**: Enthusiasts who want to support their favorite artists directly, own a piece of their music, and be part of a vibrant music community.
 
 ## Potential Impact:
 
@@ -71,13 +71,13 @@ Melodica has the potential to disrupt the traditional music industry by:
 *Steps:*
 
 1.  *Clone the Repository:*
-    ⁠ bash
+    bash
     git clone [invalid URL removed]
     cd Melodica-dapp
      ⁠
 
 2.  *Launch The Melodia-dapp:*
-    ⁠ bash
+    ⁠bash
     cd Melodica-dapp
     npm install 
     npm run dev
