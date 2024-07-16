@@ -1,10 +1,19 @@
 **Project Title:** Melodica: Decentralizing Music Creation, Ownership, and Community.
 
+## Table of Contents
+
+•⁠  ⁠[Project Description](#project-description)
+•⁠  ⁠[Target Audience](#target-audience)
+•⁠  ⁠[Potential Impact](#potential-impact)
+•⁠  ⁠[Tech Stack](#tech-stack)
+•⁠  ⁠[Installation and Setup](#installation-and-setup)
+
+
 ## Project Description:
 
 Melodica is a revolutionary SocialFi platform built on the Aptos blockchain that is set to redefine the music industry. It empowers both artists and fans by providing a decentralized ecosystem for music creation, distribution, and engagement.
 
-## Empowering Artists:
+**Empowering Artists:**
 
 - **True Ownership**: Artists mint their music as NFTs (Non-Fungible Tokens) on Aptos, granting them verifiable ownership and control over their creations.
 - **Direct Fan Engagement**: Artists connect directly with their fans through dedicated fan clubs, live streams, Q&A sessions, and behind-the-scenes content.
@@ -14,14 +23,14 @@ Melodica is a revolutionary SocialFi platform built on the Aptos blockchain that
    - **Direct Tipping**: Fans can directly tip artists in Aptos coin (APT).
    - **On-Chain Royalties**: Smart contracts ensure transparent and automatic distribution of royalties from secondary sales and streaming.
 
-## Engaging Fans:
+**Engaging Fans:**
 
 - **Authentic Connection**: Melodica fosters deeper artist-fan relationships through exclusive content, virtual meet-and-greets, and community events.
 - **Investment Opportunities**: Fans can invest in their favorite artists through fractional NFT ownership, sharing in the financial success of their music.
 - **Governance & Community**: Participate in the creative direction of artists' work through voting rights embedded in certain NFTs.
 - **Unique Collectibles**: Collect limited edition music NFTs with exclusive artwork and behind-the-scenes content.
 
-## Technological Foundations:
+**Technological Foundations:**
 
 - **Aptos Blockchain**: Aptos's high throughput, low latency, and secure infrastructure form the backbone of Melodica, ensuring fast transactions and a reliable platform.
 - **Move Smart Contracts**: The Move programming language, designed for safe resource management, powers the core logic of NFT creation, ownership, royalty distribution, and fan club functionality.
@@ -71,13 +80,13 @@ Melodica has the potential to disrupt the traditional music industry by:
 *Steps:*
 
 1.  *Clone the Repository:*
-    bash
+   ```
     git clone [invalid URL removed]
     cd Melodica-dapp
-     ⁠
+```
 
-2.  *Launch The Melodia-dapp:*
-    ⁠bash
+3.  *Launch The Melodia-dapp:*
+    ⁠```
     cd Melodica-dapp
     npm install 
-    npm run dev
+    npm run dev ```
