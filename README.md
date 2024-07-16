@@ -44,8 +44,7 @@ Melodica is a revolutionary SocialFi platform built on the Aptos blockchain that
     - **Node.js**: Server-side JavaScript runtime environment.
     - **Express.js**: Web framework for building APIs.
     - **Aptos SDK**: For interacting with the Aptos blockchain.
-    - **jwt**: For JSON Web Token authentication (optional).
-    - **Other Libraries**: Depending on your implementation, you might use libraries for database interaction (if not solely relying on the blockchain), real-time communication (WebSockets), etc.
+    - **other libraries**
 
 - **Target Audience:**
 
