@@ -29,7 +29,7 @@ socialfi-music-dapp/
 │   │   │   └── ...          
 │   │   ├── utils/            # Helper functions
 │   │   │   ├── aptos.js       # Aptos SDK interaction (transactions, etc.)
-│   │   │   ├── nft.js         # NFT handling (metadata, image display, etc.) --- API: 66c8607b.997e5e6cd4be4dd8aa3560fed7d31fa5
+│   │   │   ├── nft.js         # NFT handling (metadata, image display, etc.) --- 
 │   │   │   ├── web3Storage.js # (Optional) For decentralized storage
 │   │   │   └── ...
 │   │   ├── context/          # (Optional) Context API for global state
