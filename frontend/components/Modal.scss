@@ -1,0 +1,47 @@
+/* src/components/Modal.scss */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal {
+    background-color: #1f1f1f; /* Dark theme background */
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 90%;
+    position: relative;
+
+    &__header {
+        display: flex;
+        justify-content: flex-end;
+
+        .modal__close-button {
+            background: none;
+            border: none;
+            color: #ff6b6b; /* Accent color for close button */
+            font-size: 1.5rem;
+            cursor: pointer;
+            transition: color 0.3s ease;
+
+            &:hover {
+                color: #e05555; /* Darker shade on hover */
+            }
+        }
+    }
+
+    &__content {
+        margin-top: 15px;
+    }
+}

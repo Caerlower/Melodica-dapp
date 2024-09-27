@@ -1,0 +1,57 @@
+/* src/pages/Explore.scss */
+
+.explore {
+    padding: 20px;
+
+    h2 {
+        color: #ff6b6b; /* Accent color */
+        margin-bottom: 20px;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    &__search {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+
+        input {
+            width: 60%;
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #444;
+            border-radius: 5px;
+            background-color: #2a2a2a;
+            color: #fff;
+
+            &::placeholder {
+                color: #bbb;
+            }
+
+            &:focus {
+                outline: none;
+                border-color: #ff6b6b; /* Highlight color */
+            }
+        }
+    }
+
+    &__nfts,
+    &__artists {
+        margin-bottom: 40px;
+
+        h3 {
+            color: #ff6b6b;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+    }
+
+    &__nft-list,
+    &__artist-list {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

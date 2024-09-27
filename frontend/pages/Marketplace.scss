@@ -1,0 +1,47 @@
+/* src/pages/Marketplace.scss */
+
+.marketplace {
+    padding: 20px;
+
+    h2 {
+        color: #ff6b6b; /* Accent color */
+        margin-bottom: 20px;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    &__controls {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 140px;
+        margin-bottom: 30px;
+
+        label {
+            margin-right: 10px;
+            font-size: 1rem;
+            color: #fff;
+        }
+
+        select {
+            padding: 5px;
+            font-size: 1rem;
+            border: 1px solid #444;
+            border-radius: 5px;
+            background-color: #2a2a2a;
+            color: #fff;
+
+            &:focus {
+                outline: none;
+                border-color: #ff6b6b; /* Highlight color */
+            }
+        }
+    }
+
+    &__nft-list {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

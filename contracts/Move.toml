@@ -1,0 +1,18 @@
+[package]
+name = "Melodica"
+version = "1.0.0"
+authors = []
+
+[addresses]
+launchpad_addr = "_"
+initial_creator_addr = "_"
+minter = "_"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "testnet" }
+AptosStdlib = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-stdlib/", rev = "testnet" }
+AptosToken = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-token/", rev = "testnet" } # Changed to AptosToken
+AptosTokenObjects = { git = "https://github.com/aptos-labs/aptos-core.git", rev = "testnet", subdir = "aptos-move/framework/aptos-token-objects" }
+
+
+[dev-dependencies]

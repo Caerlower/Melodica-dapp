@@ -1,0 +1,51 @@
+/* src/components/VotingPanel.scss */
+
+.voting-panel {
+    background-color: #1f1f1f; /* Dark background for the panel */
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    &__title {
+        font-size: 1.5rem;
+        color: #ff6b6b; /* Accent color */
+        margin-bottom: 10px;
+    }
+
+    &__description {
+        font-size: 1rem;
+        margin-bottom: 15px;
+        color: #b3b3b3;
+    }
+
+    &__options {
+        margin-bottom: 20px;
+
+        &__option {
+            display: block;
+            margin: 10px 0;
+            font-size: 1rem;
+            color: #fff;
+
+            input {
+                margin-right: 10px;
+            }
+        }
+    }
+
+    &__vote-button {
+        background-color: #ff6b6b;
+        border: none;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #e05555; /* Darker shade on hover */
+        }
+    }
+}

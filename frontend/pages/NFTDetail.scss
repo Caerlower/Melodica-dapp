@@ -1,0 +1,70 @@
+/* src/pages/NFTDetail.scss */
+
+.nft-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+    &__image {
+        width: 100%;
+        max-width: 500px;
+        margin-bottom: 20px;
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    }
+
+    &__info {
+        max-width: 500px;
+        text-align: center;
+
+        &__title {
+            font-size: 2rem;
+            color: #ff6b6b; /* Accent color */
+            margin-bottom: 10px;
+        }
+
+        &__artist {
+            font-size: 1.2rem;
+            color: #b3b3b3;
+            margin-bottom: 15px;
+        }
+
+        &__description {
+            font-size: 1rem;
+            color: #e0e0e0;
+            margin-bottom: 20px;
+        }
+
+        &__price {
+            font-size: 1.5rem;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+
+        &__owner {
+            font-size: 0.9rem;
+            color: #888;
+            margin-bottom: 20px;
+        }
+
+        &__buy-button {
+            background-color: #ff6b6b;
+            border: none;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+
+            &:hover {
+                background-color: #e05555; /* Darker shade on hover */
+            }
+        }
+    }
+}

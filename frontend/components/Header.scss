@@ -1,0 +1,140 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1f1f1f;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    &__logo {
+        display: flex;
+        align-items: center;
+
+        &-icon {
+            font-size: 1.5rem;
+            color: #ff6b6b;
+            margin-right: 10px;
+        }
+
+        &-text {
+            color: #fff;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    }
+
+    &__nav {
+        ul {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            li {
+                position: relative;
+
+                a {
+                    display: flex;
+                    align-items: center;
+                    color: #fff; /* White text by default */
+                    text-decoration: none;
+                    font-size: 1rem;
+                    transition: color 0.3s ease;
+
+                    &:hover {
+                        color: #ff6b6b; /* Change to red on hover */
+                    }
+
+                    .header__nav-icon {
+                        margin-right: 8px;
+                    }
+                }
+
+                /* Hide dropdown by default */
+                .dropchange {
+                    display: none;
+                    position: absolute;
+                    top: 100%;
+                    left: 0;
+                    background-color: black;
+                    color: white;
+                    padding: 10px 0;
+                    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+                    border-radius: 4px;
+                    z-index: 10;
+
+                    li {
+                        padding: 10px 20px;
+
+                        a {
+                            color: white; /* White text inside the dropdown */
+
+                            &:hover {
+                                color: #ff6b6b; /* Change to red on hover */
+                            }
+                        }
+                    }
+                }
+
+                /* Show dropdown on hover */
+                &:hover .dropchange {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    &__profile {
+        a {
+            display: flex;
+            align-items: center;
+            color: #fff; /* White by default */
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.3s ease;
+
+            &:hover {
+                color: #ff6b6b; /* Change to red on hover */
+            }
+
+            .header__profile-icon {
+                margin-right: 8px;
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    /* Wallet section */
+    &__wallet {
+        span {
+            color: #ff6b6b; /* Change the wallet address color to red when connected */
+            font-weight: bold;
+        }
+    }
+
+    /* More dropdown link styling */
+    .moredrop {
+        summary {
+            color: white; /* Default white text for 'More' */
+            cursor: pointer;
+            transition: color 0.3s ease;
+            list-style: none; /* Remove default browser style for the summary bullet */
+
+            /* Reset browser-specific summary styles */
+            display: flex;
+            align-items: center;
+            outline: none; /* Remove default outline */
+            padding: 0;
+
+            &:hover {
+                color: #ff6b6b; /* Change to red on hover */
+            }
+        }
+
+        /* Dropdown handling */
+        &:hover .dropchange {
+            display: block;
+        }
+    }
+}

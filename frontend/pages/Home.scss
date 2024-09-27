@@ -1,0 +1,31 @@
+/* src/pages/Home.scss */
+
+.home {
+    padding: 20px;
+
+    h2 {
+        color: #ff6b6b; /* Accent color */
+        margin-bottom: 20px;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    &__featured-nfts,
+    &__popular-artists,
+    &__music-player {
+        margin-bottom: 40px;
+    }
+
+    &__nft-list,
+    &__artist-list {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    &__music-player {
+        display: flex;
+        justify-content: center;
+    }
+}

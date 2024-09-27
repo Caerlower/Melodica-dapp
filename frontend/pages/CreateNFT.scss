@@ -1,0 +1,83 @@
+/* src/pages/CreateNFT.scss */
+
+.create-nft {
+    padding: 20px;
+
+    h2 {
+        color: #ff6b6b; /* Accent color */
+        margin-bottom: 20px;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    &__form {
+        max-width: 600px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__form-group {
+        margin-bottom: 20px;
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 1rem;
+            color: black;
+            font-weight: bold;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #444;
+            border-radius: 5px;
+            background-color: #2a2a2a;
+            color: #fff;
+        }
+
+        input[type="file"] {
+            padding: 5px;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        input:focus,
+        textarea:focus {
+            outline: none;
+            border-color: #ff6b6b; /* Highlight color */
+        }
+    }
+
+    &__preview {
+        margin-top: 10px;
+        text-align: center;
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    }
+
+    &__submit-button {
+        background-color: #ff6b6b;
+        border: none;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #e05555; /* Darker shade on hover */
+        }
+    }
+}

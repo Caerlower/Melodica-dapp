@@ -1,0 +1,67 @@
+/* src/App.scss */
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #121212; /* Consistent dark background */
+  color: #e0e0e0; /* Light text color for readability */
+
+  .header {
+      /* Dark themed header */
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background-color: #1f1f1f; /* Slightly lighter background for the header */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+  }
+
+  main {
+      flex: 1;
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto; /* Center the content */
+      background-color: #121212; /* Match the background with the app's background */
+  }
+
+  /* Global link styles */
+  a {
+      color: #ff6b6b; /* Accent color */
+      text-decoration: none;
+
+      &:hover {
+          text-decoration: underline;
+      }
+  }
+
+  /* Utility classes */
+  .container {
+      padding: 20px;
+      margin: 0 auto;
+      max-width: 1200px;
+      background-color: #1f1f1f; /* Dark background for cards/sections */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+      border-radius: 8px;
+  }
+
+  .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      background-color: #ff6b6b; /* Accent color */
+      color: #fff;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+          background-color: #e05555; /* Slightly darker shade on hover */
+      }
+  }
+}

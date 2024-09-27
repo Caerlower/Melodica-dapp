@@ -1,0 +1,99 @@
+/* src/pages/authentication/Register.scss */
+
+.register {
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    h2 {
+        color: #ff6b6b; /* Accent color */
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+
+        &-group {
+            margin-bottom: 20px;
+
+            label {
+                display: block;
+                margin-bottom: 8px;
+                font-size: 1rem;
+                color: #fff;
+            }
+
+            input {
+                width: 100%;
+                padding: 10px;
+                font-size: 1rem;
+                border: 1px solid #444;
+                border-radius: 5px;
+                background-color: #2a2a2a;
+                color: #fff;
+
+                &:focus {
+                    outline: none;
+                    border-color: #ff6b6b; /* Highlight color */
+                }
+            }
+        }
+    }
+
+    &__button {
+        width: 100%;
+        padding: 10px;
+        background-color: #ff6b6b;
+        border: none;
+        color: #fff;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #e05555; /* Darker shade on hover */
+        }
+    }
+
+    &__divider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0;
+
+        span {
+            padding: 0 10px;
+            color: #b3b3b3;
+        }
+
+        &::before,
+        &::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background-color: #444;
+        }
+    }
+
+    &__web3-button {
+        width: 100%;
+        padding: 10px;
+        background-color: #333;
+        border: none;
+        color: #fff;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #444; /* Lighter shade on hover */
+        }
+    }
+}
