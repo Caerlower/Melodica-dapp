@@ -88,6 +88,7 @@ Melodica has the potential to disrupt the traditional music industry by:
 3.  *Launch The Melodia-dapp:*
    ```
     cd Melodica-dapp
+    cd frontend
     npm install 
     npm run dev
  ```
