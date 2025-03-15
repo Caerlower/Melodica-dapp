@@ -81,7 +81,7 @@ Melodica has the potential to disrupt the traditional music industry by:
 
 1.  *Clone the Repository:*
    ```
-    git clone [invalid URL removed]
+    git clone (https://github.com/Caerlower/Melodica-dapp.git)
     cd Melodica-dapp
 ```
 
